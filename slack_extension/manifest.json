@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Slack Extension",
+  "version": "0.1",
+  "description": "This extension will help to watch the slack",
+  "icons": {
+    "128": "img/icon.png"
+  },
+
+  "content_scripts": [{
+    "matches": ["https://enechange.slack.com/messages/*"],
+    "js": ["js/jquery-2.1.3.min.js", "js/script.js"],
+    "css": ["css/style.css"]
+  }]
+}

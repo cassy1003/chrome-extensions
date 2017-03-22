@@ -1,0 +1,33 @@
+
+.channels_list_holder.no_unread_msgs_badges .unread_msgs:not(.hidden) {
+  display: block !important;
+
+  ~ .display_flex {
+    width: 77%;
+  }
+}
+.channels_list_holder .unread_highlights {
+  left: 5px;
+}
+
+#useful-channel-list {
+  .channel:not(.unread):not(.active),
+  .group:not(.unread):not(.active) {
+    display: none;
+  }
+  .title {
+   margin: 5px 10px;
+   cursor: pointer;
+    .num {
+      position: absolute;
+      right: 0px;
+      margin-right: 15px;
+    }
+    i:before {
+      content: '+';
+    }
+    i.open:before {
+      content: '-';
+    }
+  }
+}
