@@ -12,5 +12,5 @@
     "matches": ["https://ssl.jobcan.jp/employee/man-hour-manage*"],
     "js": ["js/jquery-2.1.3.min.js", "js/script.js"],
     "css": ["css/style.css"]
-  }],
+  }]
 }
